@@ -1,6 +1,6 @@
 # Rusty Roms
 
-![Screenshots](https://raw.githubusercontent/com/lordzeuss/rusty-roms/main/assets/video/example.mp4)
+![https://raw.githubusercontent/com/lordzeuss/rusty-roms/main/assets/video/example.mp4](https://raw.githubusercontent/com/lordzeuss/rusty-roms/main/assets/video/example.mp4)
 
 ## Features
 
