@@ -1,7 +1,5 @@
 # Rusty Roms
 
-![Example Video](https://raw.githubusercontent.com/lordzeuss/rusty-roms/main/assets/video/example.mp4)
-
 ## Features
 
 * **Multi-Platform:** Runs on all main desktop operating systems (Windows/Mac/Linux)
