@@ -6,7 +6,7 @@ use std::path::PathBuf;
 pub fn temp_dir() {
     let home_dir = dirs::home_dir().expect("Could not find home directory");
     let mut dir_path = PathBuf::from(home_dir);
-    dir_path.push(".roms-tauri");
+    dir_path.push(".rusty-roms");
 
     if dir_path.exists() {
         println!("Setup directory already exists at {:?}, skipping...", dir_path);

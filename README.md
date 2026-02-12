@@ -25,10 +25,15 @@
 * Nintendo GameCube
 * Nintendo Wii
 * Nintendo Wii U
+* Sony Playstation
+* Sony Playstation 2
 * Sony Playstation 3
 * Sony Playstation Portable
 * Sony Playstation Vita
+* Microsoft Xbox
 * Microsoft Xbox 360
+* Commodore 64
+* Sega Dreamcast
 
 **MORE TO COME THIS WEEK!**
 
@@ -40,7 +45,9 @@ Download the latest release from the releases page or build from source
 ### Build from Source
 
 Prerequisites:
+
     * Install tauri cli via cargo/rust: https://tauri.app/
+
     * Install rust: https://rust-lang.org/install
 
 ```

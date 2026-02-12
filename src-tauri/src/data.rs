@@ -26,10 +26,10 @@ pub fn db_path() -> PathBuf {
     let mut p = dirs::home_dir()
         .expect("Could not determine home directory");
 
-    p.push(".roms-tauri");
+    p.push(".rusty-roms");
 
     std::fs::create_dir_all(&p)
-        .expect("Failed to create .roms-tauri directory");
+        .expect("Failed to create .rusty-roms directory");
 
     p.push("games.db");
     p
@@ -256,7 +256,11 @@ pub fn console_fill() -> Result<()> {
         ("Sony Playstation 3", "https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%203%20%28PSN%29%20%28Content%29/"),
         ("Sony Playstation Portable", "https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%20Portable%20%28PSN%29%20%28Decrypted%29/"),
         ("Sony Playstation Vita", "https://myrient.erista.me/files/No-Intro/Sony%20-%20PlayStation%20Vita%20%28PSN%29%20%28Content%29/"),
+        ("Sony Playstation", "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sony%20-%20PlayStation/"),
+        ("Sony Playstation 2", "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sony%20-%20PlayStation%202/"),
         ("Microsoft Xbox 360", "https://myrient.erista.me/files/No-Intro/Microsoft%20-%20Xbox%20360%20%28Digital%29/"),
+        ("Commodore 64", "https://myrient.erista.me/files/No-Intro/Commodore%20-%20Commodore%2064/"),
+        ("Sega Dreamcast", "https://myrient.erista.me/files/No-Intro/Non-Redump%20-%20Sega%20-%20Dreamcast/"),
     ];
     insert_consoles(&conn, &consoles)?;
     println!("Added Consoles");

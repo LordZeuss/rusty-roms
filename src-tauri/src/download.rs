@@ -34,7 +34,7 @@ fn ensure_settings_table(conn: &Connection) -> Result<(), String> {
 
 fn default_download_dir() -> Result<PathBuf, String> {
     let mut p = dirs::home_dir().ok_or("...")?;
-    p.push(".roms-tauri");
+    p.push(".rusty-roms");
     p.push("downloads");
     Ok(p)
 }

@@ -17,10 +17,10 @@ pub fn db_path() -> PathBuf {
     let mut p = dirs::home_dir()
         .expect("Could not determine home directory");
 
-    p.push(".roms-tauri");
+    p.push(".rusty-roms");
 
     std::fs::create_dir_all(&p)
-        .expect("Failed to create .roms-tauri directory");
+        .expect("Failed to create .rusty-roms directory");
 
     p.push("games.db");
     p
