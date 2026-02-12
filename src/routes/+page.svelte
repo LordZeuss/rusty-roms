@@ -457,7 +457,7 @@
               on:click={pickDir}
               disabled={savingDir || startupRunning}
             >
-              Pick…
+              Open
             </button>
 
             <button
@@ -488,7 +488,7 @@
         <div class="card-body">
           <h3 class="card-title text-base">Update Library</h3>
           <p class="text-xs opacity-70">
-            Rebuild DB and scrape the latest ROM list.
+            Update DB and cache the latest ROM list.
           </p>
 
           <button

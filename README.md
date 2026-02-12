@@ -56,3 +56,16 @@ cd rusty-roms
 cargo tauri build
 ```
 Binary is located at rusty-roms/src-tauri/target/release/bundle
+
+---
+
+## Usage
+
+On first launch, you will need to create the database so it can be cached. All this is done automatically, but you will need to click update library.
+
+1. Click the settings button at the bottom
+2. Select 'Update Library'
+
+This will create the database and cache all of the links. The speed this takes typically depends on your network speed, but it shouldn't take more than a few minutes at most.
+
+Once you have updated library, you can search for your games! You don't need to update the library after the intial load unless you want to.
